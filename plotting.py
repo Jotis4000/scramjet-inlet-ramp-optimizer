@@ -72,7 +72,7 @@ def global_limits(cases, shock_length, pad=0.08):
 # PLOTTING
 #########################################
 
-def plot_geometries(results, filename="inlet_geometries.png"):
+def plot_geometries(results, filename="figs/inlet_geometries.png"):
     """One equally-sized panel per Mach: ramp surface and resulting shocks."""
     cases = results['cases']
     n = len(cases)
@@ -133,7 +133,7 @@ def plot_geometries(results, filename="inlet_geometries.png"):
     return fig
 
 
-def plot_performance(results, filename="inlet_performance.png"):
+def plot_performance(results, filename="figs/inlet_performance.png"):
     """Recovery, exit Mach, and exit temperature vs freestream Mach."""
     cases = results['cases']
     M_exit_range = results['constraints']['M_exit_range']
