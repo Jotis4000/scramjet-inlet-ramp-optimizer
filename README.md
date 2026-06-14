@@ -98,3 +98,5 @@ python plotting.py    # regenerates the figures from data/results.json (no solve
 ```
 
 Key parameters are set at the top of `main.py`: the altitude `H`, the Mach list `MACH_LIST`, the number of ramps `N_RAMPS`, and the fixed constraint set (`M_EXIT_RANGE`, `T_EXIT_RANGE`, `RAMP_ANGLE_RANGE`). The constraint defaults correspond to a hydrogen-fueled design window; lowering the combustor-entry Mach floor is what opens up the lower flight-Mach range. `plotting.py` depends only on NumPy and Matplotlib, so figure tweaks can be done in an environment without Cantera installed.
+
+Disclamer: This cover page has been made with the help of external agents to ease readability and comprehensiveness.
